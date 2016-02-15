@@ -12,10 +12,8 @@
 		248A54951C7028FD009D1AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A54931C7028FD009D1AB3 /* Main.storyboard */; };
 		248A54971C7028FD009D1AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248A54961C7028FD009D1AB3 /* Assets.xcassets */; };
 		248A549A1C7028FD009D1AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A54981C7028FD009D1AB3 /* LaunchScreen.storyboard */; };
-		248A549F1C7028FD009D1AB3 /* Watch-First WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 248A549E1C7028FD009D1AB3 /* Watch-First WatchKit App.app */; };
 		248A54A51C7028FD009D1AB3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A54A31C7028FD009D1AB3 /* Interface.storyboard */; };
 		248A54A71C7028FD009D1AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248A54A61C7028FD009D1AB3 /* Assets.xcassets */; };
-		248A54AE1C7028FD009D1AB3 /* Watch-First WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 248A54AD1C7028FD009D1AB3 /* Watch-First WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		248A54B31C7028FD009D1AB3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A54B21C7028FD009D1AB3 /* InterfaceController.swift */; };
 		248A54B51C7028FD009D1AB3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A54B41C7028FD009D1AB3 /* ExtensionDelegate.swift */; };
 		248A54B71C7028FD009D1AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248A54B61C7028FD009D1AB3 /* Assets.xcassets */; };
@@ -45,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				248A54AE1C7028FD009D1AB3 /* Watch-First WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +53,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				248A549F1C7028FD009D1AB3 /* Watch-First WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;

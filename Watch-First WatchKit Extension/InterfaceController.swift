@@ -12,8 +12,13 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var updateLabel: WKInterfaceLabel!
+    
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        
+        updateLabel.setText("Help me!")
         
         // Configure interface objects here.
     }
